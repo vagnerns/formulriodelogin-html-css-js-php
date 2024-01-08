@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login PHP Via API</title>
+    <link rel="icon" href="./src/img/engrenagem-48.png">
+    <link rel="stylesheet" href="./src/css/init.css">
+</head>
+
+<body>
+    <!--Cabeçalho do Documento-->
+    <header> 
+        <h1>Login PHP Via API</h1>
+    </header>
+    <!--Área Principal-->
+    <main>
+        <!--Formulário de Login-->
+        <form class="form" id="systemLogin">
+            <header class="formHeader">
+                <h2 class="formHeaderTitle">Login no Sistema</h2>
+            </header>
+            <div class="formBox">
+                <label for="email" class="formLabel">
+                    Email: <br>
+                    <input class="formInput" type="email" name="email" id="email" placeholder="Seu e-mail:" maxlength="60" required autofocus>
+                </label>
+            </div>
+            <div class="formBox">
+                <label for="password" class="formLabel">
+                    Senha: <br>
+                    <input class="formInput" type="password" name="password" id="password" placeholder="Sua senha" maxlength="20" required>
+                </label>
+            </div>
+            <div class="formBox">
+                <button class="formButtonSubmit" type="submit" title="Clique para efetuar o login">
+                    Logar
+                </button>
+            </div>
+            <div class="formBoxExtra" id="formBoxExtra">
+                <a class="formLinkExtra" href="#">Esqueci a senha</a>
+                <a class="formLinkExtra" href="#">Cadastrar</a>
+            </div>
+        </form>
+    </main>
+    <!--Rodapé do Documento-->
+    <footer>
+        <address>
+            Este material foi desenvolvido por <a href="mailto:webcursoprofessorluis@gmail.com" title="Enviar um e-mail">Luis Vulcanis</a> para o <a href="https://youtube.com/@professorluis" target="_blank" rel="noopener noreferrer">Canal do Prof. Luis Vulcanis</a> &copy; 2023.
+        </address>
+    </footer>
+    <!--Chamada de arquivos Javascript-->
+    <script src="./app/login.js"></script>
+    
+</body>
+</html>

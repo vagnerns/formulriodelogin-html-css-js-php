@@ -34,7 +34,7 @@ section#login {
 
 section#login > div#imagem {
     display: block;
-    background: #F4BA1E url(../img/arvore.jpeg) no-repeat;
+    background: #000000 url(../img/arvore.jpeg) no-repeat;
     background-size: cover;
     background-position: center;
     height: 200px;

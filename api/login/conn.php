@@ -1,7 +1,7 @@
 <?php
-$user = "";//Nome de Usuário
+$user = "root";//Nome de Usuário
 $pass = "";//Senha do Banco de Dados
-$data = "mysql:dbname=NOME_DO_BANCO;host=localhost;charset=utf8";
+$data = "mysql:dbname=cadastros;host=localhost;charset=utf8";
 
 global $pdo;
 

@@ -37,7 +37,7 @@ body {
 
 .conteudo {
     margin-bottom: 48px;
-    border-top: 0.4px solid white;
+    border-top: 0.4px solid #ffffff;
 }
 
 .conteudo-principal {
@@ -91,4 +91,31 @@ body {
     align-items: center;
     gap: 24px;
     margin-top: 48px;
+}
+
+.conteudo-secundario-titulo {
+    border-top: 0.4px solid #ffffff;
+    padding-top: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400px;
+    font-size: 1.2em;
+    color: #ffffff;
+}
+
+.conteudo-secundario-paragrafo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300px;
+    font-size: 0.8em;
+    color: #ffffff;
+}
+
+.rodape {
+    background-color: #000000;
+    border-top: 0.4px solid #ffffff;
+}
+
+.rodape-img {
+    margin: 0 auto;
+    display: block;
+    height: 48px;
 }

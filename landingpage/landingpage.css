@@ -13,11 +13,12 @@ body {
 }
 
 .cabecalho{
+    /*background-image: linear-gradient(to bottom right ,#F2B705, #F29F05, #F28705);*/
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 20px;
+    padding: 5px;
 }
 .cabecalho-img {
     height: 72px;
@@ -33,6 +34,10 @@ body {
     color: white;
     font-weight: 400;
     font-size: 1.2em;
+}
+
+.cabecalho-menu-item:hover {
+    color: #F2CF63;
 }
 
 .conteudo {
@@ -80,9 +85,15 @@ body {
     font-size: 1.3em;
 }
 
+.conteudo-principal-escrito-botao:hover {
+    background-color: #BF8136;
+    color: #F2CF63;
+}
+
 .conteudo-principal-img {
     width: 300px;
     height: 300px;
+    margin-top: 20px;
 }
 
 .conteudo-secundario {
